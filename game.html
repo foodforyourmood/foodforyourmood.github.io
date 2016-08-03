@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE HTML>
 <!--
 	Spatial by TEMPLATED
@@ -26,21 +25,87 @@
 		<script>
 		function ChangeImageYes() {
 			var picture = document.getElementById("food_pic");
-			if (picture.src.match("http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg")){
-				picture.src = "http://4.bp.blogspot.com/-QAjteEDMHTY/ThuP0Ep-9QI/AAAAAAAAASc/imyNVitMA6c/s1600/_MG_8422.JPG"
+/* Pasta */		if (picture.src.match("http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg")){
+/*ItalianPasta */		picture.src = "http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg"
 				}
-			if (picture.src.match("")){
-				picture.src = ""
-				}
-			
-			
+/* ItalianPasta */else if (picture.src.match("http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg")){
+/* OUT */					picture.src = "pic01.jpg"
+					}
+/* MacCheese*/		else if (picture.src.match("http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png")){
+/* OUT */					picture.src = "pic01.jpg"
+					}
+/*noodles*/					else if (picture.src.match("http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg")){
+/*chinese noodles*/			picture.src = "http://theculinarycellar.com/wp-content/uploads/2013/07/Chinese-noodles-on-plate-last.jpg"
+			}
+					
+/* OUT */		else if (picture.src.match("outtoeat.jpg")){
+/* openwindow */		picture.src = "outtoeat.jpg"
+						}			
 		}
 		function ChangeImageNo() {
 		var picture = document.getElementById("food_pic");
-		if (picture.src.match("http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg")){
-			picture.src = "http://4.bp.blogspot.com/-DXHHUlRcFc8/TmT1YuleVqI/AAAAAAAAAeU/CqE_ZDDc-jQ/s1600/real-pizza.jpg"
+/*Pasta*/		if (picture.src.match("http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg")){
+/*noodles*/			picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"
+				}
+/* ItalianPasta*/else if (picture.src.match("http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg")){
+/* MacCheese*/	picture.src = "http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png"
 			}
+/* MacCheese*/			else if (picture.src.match("http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png")){
+/*noodles*/				picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"
 			}
+/*chinesenood*/			else if (picture.src.match("http://theculinarycellar.com/wp-content/uploads/2013/07/Chinese-noodles-on-plate-last.jpg")){
+/*thainood*/				picture.src = "http://www.bonappetit.com/wp-content/uploads/2007/07/mare_spicy_sesame_noodles_with_chopped_peanuts_and_thai_basil_h.jpg" }
+
+
+/*thainood*/   		else if (picture.src.match("http://www.bonappetit.com/wp-content/uploads/2007/07/mare_spicy_sesame_noodles_with_chopped_peanuts_and_thai_basil_h.jpg")){
+/*japanesenood*/		picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"}
+
+/*japanesenood*/   else if (picture.src.match("http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png")){
+/*rice bowl*/		picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"}
+
+/*rice bowl*/ 	 else if (picture.src.match("http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png")){
+/* START OVER*/		picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"}
+
+/*noodles*/			else if (picture.src.match("http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg")){
+/*SeaFood*/			picture.src = "http://previews.123rf.com/images/bdcollins/bdcollins1407/bdcollins140700085/29984467-Gourmet-Restaurant-Seafood-Dishes-Collage-Stock-Photo.jpg" }
+
+/*SeaFood */			else if (picture.src.match("http://previews.123rf.com/images/bdcollins/bdcollins1407/bdcollins140700085/29984467-Gourmet-Restaurant-Seafood-Dishes-Collage-Stock-Photo.jpg")){
+/* Pizza */				picture.src = "http://www.couponclipinista.com/wp-content/uploads/2014/10/Cheese-pizza-slice-hi-res.jpg" }
+
+/* Pizza */				else if (picture.src.match("http://www.couponclipinista.com/wp-content/uploads/2014/10/Cheese-pizza-slice-hi-res.jpg")){
+/*Burgers */			picture.src = "http://www.girardatlarge.com/wp-content/uploads/2014/03/Burger.jpg" }
+
+/*Burgers */			else if (picture.src.match("http://www.girardatlarge.com/wp-content/uploads/2014/03/Burger.jpg")){
+/*Sandwich/ Panini */	picture.src = "http://www.olgasflavorfactory.com/wp-content/uploads/2012/04/IMG_0741-1024x682.jpg" }
+
+/*Sandwich/ Panini */	else if (picture.src.match("http://www.olgasflavorfactory.com/wp-content/uploads/2012/04/IMG_0741-1024x682.jpg")){
+/*SouthernFried*/		picture.src = "http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/50/69/49/picmuqFf3.jpg" }
+
+/*SouthernFried*/	else if (picture.src.match("http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/50/69/49/picmuqFf3.jpg")){
+/* Salad */			picture.src = "https://thumbs.dreamstime.com/z/healthy-salads-collage-7629664.jpg" }
+
+/* Salad */		else if (picture.src.match("https://thumbs.dreamstime.com/z/healthy-salads-collage-7629664.jpg")){
+/*BBQ */			picture.src = "http://www.redsbbqsimi.com/images/bbq-ribs.jpg" }
+
+/*BBQ */		else if (picture.src.match("http://www.redsbbqsimi.com/images/bbq-ribs.jpg")){
+/*Wings*/			picture.src = "http://fodmapliving.com/wp-content/uploads/2013/01/buffalo-wings.jpg" }
+
+/*Wings*/       else if (picture.src.match("http://fodmapliving.com/wp-content/uploads/2013/01/buffalo-wings.jpg")){
+/*Steak*/			picture.src = "http://images6.fanpop.com/image/photos/34400000/Steak-meat-34450446-1219-914.jpg" }
+
+/*Steak*/    else if (picture.src.match("http://images6.fanpop.com/image/photos/34400000/Steak-meat-34450446-1219-914.jpg")){
+/* Mexican*/			picture.src = "http://www.quinceanera.com/wp-content/uploads/2015/06/rsz_1mexican-food-collage-750x383.jpg" }
+
+/* Mexican*/  else if (picture.src.match("http://www.quinceanera.com/wp-content/uploads/2015/06/rsz_1mexican-food-collage-750x383.jpg")){
+/*Indian*/			picture.src = "http://www.kaveyeats.com/files/2013/03/AsmaCollage.jpg" }
+
+/*Indian*/  else if (picture.src.match("http://www.kaveyeats.com/files/2013/03/AsmaCollage.jpg")){
+/*Greek/Mediterranean*/picture.src = "http://il2.picdn.net/shutterstock/videos/11573237/thumb/1.jpg" }
+
+ /*Greek/Mediterranean*/else if (picture.src.match("http://il2.picdn.net/shutterstock/videos/11573237/thumb/1.jpg")){
+/* Soup */ 	picture.src = "https://lh3.googleusercontent.com/-qDu9gQc9ADA/TYK9cpvqLdI/AAAAAAAAAzM/aKJ8n8TtRA4/s1600/Pureed+Soups.jpg" }
+			}
+
 
 		</script>
 			
@@ -87,88 +152,4 @@
 			</footer>
 
 	</body>
-=======
-<!DOCTYPE HTML>
-<!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Find your Food</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="style.css" >
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<script src="pquizhead.js" type="text/javascript">
-		</script>
-		<script>
-		function ChangeImageYes() {
-			var picture = document.getElementById("food_pic");
-			if (picture.src.match("pic01.jpg")){
-				picture.src = "pic02.jpg"
-				}
-			
-			
-		}
-		function ChangeImageNo() {
-		var picture = document.getElementById("food_pic");
-		if (picture.src.match("pic01.jpg")){
-			picture.src = "pic03.jpg"
-			}
-		</script>
-			
-	</head>
-	<body>
-
-		<!-- Header -->
-			<header id="header">
-				<h1><strong><a href="index.html">Spatial</a></strong> by Templated</h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="recipes.html">Recipes</a></li>
-						<li><a href="restraunts.html">Restaurants</a></li>
-					</ul>
-				</nav>
-			</header>
-			
-<div id="box">
-	<img id = "food_pic" src="pic01.jpg" alt="" /> </div>
-<button onclick = "ChangeImageYes()" id="yes">yes</button>
-<button onclick = "ChangeImageNo()" id="no">no</button>
-<script src="jsquiz.js"></script>
-
-
-
-		
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-facebook"></a></li>
-						<li><a href="#" class="icon fa-twitter"></a></li>
-						<li><a href="#" class="icon fa-instagram"></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled</li>
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
-					</ul>
-				</div>
-			</footer>
-
-	</body>
->>>>>>> 5bc63a02f40e0a80882485c01a99b8334dd5568b
 </html>
