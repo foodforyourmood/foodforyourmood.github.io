@@ -25,21 +25,61 @@
 		<script>
 		function ChangeImageYes() {
 			var picture = document.getElementById("food_pic");
+			var button = document.getElementById("yes")
 /* Pasta */		if (picture.src.match("http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg")){
 /*ItalianPasta */		picture.src = "http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg"
 				}
 /* ItalianPasta */else if (picture.src.match("http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg")){
-/* OUT */					picture.src = "pic01.jpg"
+/* OUT */					picture.src = "sg1.png"
 					}
 /* MacCheese*/		else if (picture.src.match("http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png")){
-/* OUT */					picture.src = "pic01.jpg"
+/* OUT */					picture.src = "sg2.png"
 					}
 /*noodles*/					else if (picture.src.match("http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg")){
-/*chinese noodles*/			picture.src = "http://theculinarycellar.com/wp-content/uploads/2013/07/Chinese-noodles-on-plate-last.jpg"
-			}
+/*chinese noodles*/			picture.src = "http://theculinarycellar.com/wp-content/uploads/2013/07/Chinese-noodles-on-plate-last.jpg"}
+
+/*chinese noodles*/		else if (picture.src.match("http://theculinarycellar.com/wp-content/uploads/2013/07/Chinese-noodles-on-plate-last.jpg")){
+/*sg3*/				picture.src = "sg3.png"}
+
+/*thainood*/		else if (picture.src.match("http://www.bonappetit.com/wp-content/uploads/2007/07/mare_spicy_sesame_noodles_with_chopped_peanuts_and_thai_basil_h.jpg")){
+/*sg4*/				picture.src = "sg4.png"}
+
+/*japanesenood*/	else if (picture.src.match("http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg")){
+/*sg5*/				picture.src = "sg5.png"}
+
+/*friedrice*/	else if (picture.src.match("http://beautifycorner.com/wp-content/uploads/2015/02/chinese_fried_rice.jpg")){
+/*sg6*/				picture.src = "sg6.png"}
+
+/*sushi*/	else if (picture.src.match("https://chestnuthilldentist.com/wp-content/uploads/2016/01/2016-01-Sushi-plate.jpg")){
+/*sg7*/				picture.src = "sg7.png"}
+
+/*Lobster*/	else if (picture.src.match("http://www.etravelmaine.com/wp-content/uploads/2011/12/lobster.jpg")){
+/*sg8*/				picture.src = "sg8.png"}
+
+/* crab*/			else if (picture.src.match("http://store.davidtours.net/wp-content/uploads/king-crab-legs.jpg")){
+/*sg9*/				picture.src = "sg9.png"}
+
+/*Italian Pizza*/ else if (picture.src.match("http://static1.squarespace.com/static/526e8132e4b0824a3a1b77a0/5285525ce4b0911e074e1d03/528552d8e4b0911e074e1e18/1431267797649/IP3-14.jpg")){
+/*sg10*/				picture.src = "sg10.png"}
+
+/*Chicago Pizza*/ else if (picture.src.match("http://d1dd4ethwnlwo2.cloudfront.net/wp-content/uploads/2014/06/763843_l.jpg")){
+/*sg11*/				picture.src = "sg11.png"}
+
+/*Greek Pizza*/ else if (picture.src.match("http://eclecticrecipes.com/wp-content/uploads/2012/08/pizza-16.jpg")){
+/*sg12*/				picture.src = "sg12.png"}
+
+/*SeaFood*/  		else if (picture.src.math("http://previews.123rf.com/images/bdcollins/bdcollins1407/bdcollins140700085/29984467-Gourmet-Restaurant-Seafood-Dishes-Collage-Stock-Photo.jpg")){
+/*sushi*/			picture.src = "https://chestnuthilldentist.com/wp-content/uploads/2016/01/2016-01-Sushi-plate.jpg"}
+
+
+
+/* Pizza */	 	else if (picture.src.match("http://st.depositphotos.com/1004373/2273/i/950/depositphotos_22730225-Pizza-collage.jpg")){
+/* Italian Pizza*/	picture.src = "http://static1.squarespace.com/static/526e8132e4b0824a3a1b77a0/5285525ce4b0911e074e1d03/528552d8e4b0911e074e1e18/1431267797649/IP3-14.jpg" }
+
 					
-/* OUT */		else if (picture.src.match("outtoeat.jpg")){
-/* openwindow */		picture.src = "outtoeat.jpg"
+/* OUT */		else if (picture.src.match("http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg")){
+/* openwindow <button onclick = "ChangeImageYes()" target = "_blank" href = "recipes.html" id="yes">Yes</button> */
+						
 						}			
 		}
 		function ChangeImageNo() {
@@ -58,21 +98,41 @@
 
 
 /*thainood*/   		else if (picture.src.match("http://www.bonappetit.com/wp-content/uploads/2007/07/mare_spicy_sesame_noodles_with_chopped_peanuts_and_thai_basil_h.jpg")){
-/*japanesenood*/		picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"}
+/*japanesenood*/		picture.src = "http://i349.photobucket.com/albums/q371/d-k-photos/soba-noodle-soup30.jpg"}
 
-/*japanesenood*/   else if (picture.src.match("http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png")){
-/*rice bowl*/		picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"}
+/*japanesenood*/   else if (picture.src.match("http://i349.photobucket.com/albums/q371/d-k-photos/soba-noodle-soup30.jpg")){
+/*rice bowl*/		picture.src = "http://beautifycorner.com/wp-content/uploads/2015/02/chinese_fried_rice.jpg"}
 
-/*rice bowl*/ 	 else if (picture.src.match("http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png")){
+/*rice bowl*/ 	 else if (picture.src.match("http://beautifycorner.com/wp-content/uploads/2015/02/chinese_fried_rice.jpg")){
 /* START OVER*/		picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"}
 
 /*noodles*/			else if (picture.src.match("http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg")){
 /*SeaFood*/			picture.src = "http://previews.123rf.com/images/bdcollins/bdcollins1407/bdcollins140700085/29984467-Gourmet-Restaurant-Seafood-Dishes-Collage-Stock-Photo.jpg" }
 
-/*SeaFood */			else if (picture.src.match("http://previews.123rf.com/images/bdcollins/bdcollins1407/bdcollins140700085/29984467-Gourmet-Restaurant-Seafood-Dishes-Collage-Stock-Photo.jpg")){
-/* Pizza */				picture.src = "http://www.couponclipinista.com/wp-content/uploads/2014/10/Cheese-pizza-slice-hi-res.jpg" }
+/*sushi*/				else if (picture.src.match("https://chestnuthilldentist.com/wp-content/uploads/2016/01/2016-01-Sushi-plate.jpg")){
+/*lobster*/			picture.src = "http://www.etravelmaine.com/wp-content/uploads/2011/12/lobster.jpg" }
 
-/* Pizza */				else if (picture.src.match("http://www.couponclipinista.com/wp-content/uploads/2014/10/Cheese-pizza-slice-hi-res.jpg")){
+/*lobster*/ 		else if (picture.src.match("http://www.etravelmaine.com/wp-content/uploads/2011/12/lobster.jpg")){
+/*crab*/			picture.src = "http://store.davidtours.net/wp-content/uploads/king-crab-legs.jpg" }
+
+/*crab*/ 			else if (picture.src.match("http://store.davidtours.net/wp-content/uploads/king-crab-legs.jpg")){
+/*START OVER*/			picture.src = "http://previews.123rf.com/images/bdcollins/bdcollins1407/bdcollins140700085/29984467-Gourmet-Restaurant-Seafood-Dishes-Collage-Stock-Photo.jpg" }
+
+
+/*SeaFood */			else if (picture.src.match("http://previews.123rf.com/images/bdcollins/bdcollins1407/bdcollins140700085/29984467-Gourmet-Restaurant-Seafood-Dishes-Collage-Stock-Photo.jpg")){
+/* Pizza */				picture.src = "http://st.depositphotos.com/1004373/2273/i/950/depositphotos_22730225-Pizza-collage.jpg" }
+
+/* Italian pizza*/ 			else if (picture.src.match("http://static1.squarespace.com/static/526e8132e4b0824a3a1b77a0/5285525ce4b0911e074e1d03/528552d8e4b0911e074e1e18/1431267797649/IP3-14.jpg")){
+/* Chicago pizza */				picture.src = "http://d1dd4ethwnlwo2.cloudfront.net/wp-content/uploads/2014/06/763843_l.jpg" }
+
+/* Chicago pizza */else if (picture.src.match("http://d1dd4ethwnlwo2.cloudfront.net/wp-content/uploads/2014/06/763843_l.jpg")){
+/* Greek Pizza*/				picture.src = "http://eclecticrecipes.com/wp-content/uploads/2012/08/pizza-16.jpg" }
+
+/* Greek Pizza*/		else if (picture.src.match("http://d1dd4ethwnlwo2.cloudfront.net/wp-content/uploads/2014/06/763843_l.jpg")){
+/* START OVER*/				picture.src = "http://eclecticrecipes.com/wp-content/uploads/2012/08/pizza-16.jpg" }
+
+
+/* Pizza */				else if (picture.src.match("http://st.depositphotos.com/1004373/2273/i/950/depositphotos_22730225-Pizza-collage.jpg")){
 /*Burgers */			picture.src = "http://www.girardatlarge.com/wp-content/uploads/2014/03/Burger.jpg" }
 
 /*Burgers */			else if (picture.src.match("http://www.girardatlarge.com/wp-content/uploads/2014/03/Burger.jpg")){
