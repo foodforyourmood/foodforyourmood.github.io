@@ -17,7 +17,7 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/skel-noimg.css" />
 			<link rel="stylesheet" href="style.css" >
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 			<link rel = "stylesheet" href = "css/buttoncss.css" />
@@ -494,15 +494,28 @@
 					</ul>
 				</nav>
 			</header>
-<div align ="center">			
+		
 <div id="box">
-	<img id = "food_pic" src="http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg" alt="" 
+<style>
+	img {
+	display: block;
+    margin: 0 auto;
+	position: absolute;
+	
+	  left: 35%;
+     top:  10%;
+  
+}
+</style>
+
+	<img id = "food_pic" 
+	src="http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg" alt="" 
 		width = "400" height = "350"/> </div>
 		
 <br></br>
 <br></br>
 <br></br>
-
+<div align ="center">	
 <a onclick ="ChangeImageYes()" class='button'>Yes</a>
 <a onclick= "ChangeImageNo()" class='button'>No</a>
 <script src="jsquiz.js"></script>
