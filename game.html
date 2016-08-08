@@ -30,12 +30,15 @@
 			var button = document.getElementById("yes");
 			var description = document.getElementById("descriptions");
 			var question = document.getElementById("questions")
-/* Pasta */		if (picture.src.match("http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg")){
+			var cite = document.getElementById("citation")
+			
+/* Pasta */		if (picture.src.match("http://il9.picdn.net/shutterstock/videos/5009498/thumb/1.jpg")){
 /*ItalianPasta */		picture.src = "http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg"
-						description.innerHTML = "Italian Pasta"}
+						description.innerHTML = "Italian Pasta"
+						cite.innerHTML = "http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg"}
 /* ItalianPasta */else if (picture.src.match("http://www.johnsonville.com/recipe/johnsonville-classic-meatballs-spaghetti/image/jvl-meatballs---jvl-classic-meatballs-&-spaghetti-lo-res.jpg")){
 							description.innerHTML = ""
-					question.innerHTML = ""
+							question.innerHTML = ""
 /* OUT */					picture.src = "sg1.png"
 					}
 /* MacCheese*/		else if (picture.src.match("http://culturecheesemag.com/wp-content/uploads/2014/01/macncheese.png")){
@@ -336,7 +339,7 @@ description.innerHTML = "American Soups"}
 		function ChangeImageNo() {
 		var picture = document.getElementById("food_pic");
 		var description = document.getElementById("descriptions")
-/*Pasta*/		if (picture.src.match("http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg")){
+/*Pasta*/		if (picture.src.match("http://il9.picdn.net/shutterstock/videos/5009498/thumb/1.jpg")){
 /*noodles*/			picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"
 					description.innerHTML = "Noodles"
 				}
@@ -362,7 +365,7 @@ description.innerHTML = "American Soups"}
 					description.innerHTML = "Fried Rice"}
 	
 /*rice bowl*/ 	 else if (picture.src.match("http://beautifycorner.com/wp-content/uploads/2015/02/chinese_fried_rice.jpg")){
-/* START OVER*/		picture.src = "http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg"}
+/* START OVER*/		window.open("a.html", "_self")}
 
 /*noodles*/			else if (picture.src.match("http://www.autostraddle.com/wp-content/uploads/2014/10/noodle-collage.jpg")){
 /*SeaFood*/			picture.src = "http://www.seriouseats.com/images/2016/04/20160426-grilled-seafood-recipes-roundup-collage.jpg"
@@ -377,7 +380,7 @@ description.innerHTML = "American Soups"}
 					description.innerHTML ="Crab"}
 
 /*crab*/ 			else if (picture.src.match("http://store.davidtours.net/wp-content/uploads/king-crab-legs.jpg")){
-/*START OVER*/			picture.src = "http://previews.123rf.com/images/bdcollins/bdcollins1407/bdcollins140700085/29984467-Gourmet-Restaurant-Seafood-Dishes-Collage-Stock-Photo.jpg" }
+/*START OVER*/			window.open("a.html", "_self")}
 
 
 /*SeaFood */			else if (picture.src.match("http://www.seriouseats.com/images/2016/04/20160426-grilled-seafood-recipes-roundup-collage.jpg")){
@@ -393,7 +396,7 @@ description.innerHTML = "American Soups"}
 								description.innerHTML = "Greek Pizza"}
 
 /* Greek Pizza*/		else if (picture.src.match("http://d1dd4ethwnlwo2.cloudfront.net/wp-content/uploads/2014/06/763843_l.jpg")){
-/* START OVER*/				picture.src = "http://eclecticrecipes.com/wp-content/uploads/2012/08/pizza-16.jpg" }
+/* START OVER*/				window.open("a.html", "_self")}
 
 
 /* Pizza */				else if (picture.src.match("http://st.depositphotos.com/1004373/2273/i/950/depositphotos_22730225-Pizza-collage.jpg")){
@@ -419,6 +422,9 @@ description.innerHTML = "American Soups"}
 /* pasta  Salad */	else if (picture.src.match("http://clv.h-cdn.co/assets/15/18/caesar-pasta-salad-5.jpg")){
 /* veg Salad */			picture.src = "http://www.wherethecookiesare.com/wp-content/uploads/2012/05/Diced-Greek-Salad-3b.jpg" 
 						description.innerHTML = "Vegetarian Salads"}
+						
+/* veg Salad */	 else if (picture.src.match("http://www.wherethecookiesare.com/wp-content/uploads/2012/05/Diced-Greek-Salad-3b.jpg")){
+						window.open("a.html", "_self")}
 
 
 /* Salad */		else if (picture.src.match("https://www.colourbox.com/preview/3892542-collage-with-salad.jpg")){
@@ -446,7 +452,7 @@ description.innerHTML = "American Soups"}
 							description.innerHTML = "Chili Relleno"}
 
 /* Chili Relleno*/ else if (picture.src.match("http://www.explorersclubmv.com/wp-content/uploads/2015/01/chile-rellenos.jpg")){
-/* START OVER*/			picture.src = "http://4.bp.blogspot.com/_UIXOn06Pz70/TFdTp13DhuI/AAAAAAAAKnQ/svN6WHQghrQ/s800/Chili+Rellenos+2+500.jpg" }
+/* START OVER*/			window.open("a.html", "_self")}
 
 /* Mexican*/  else if (picture.src.match("https://gofarther.files.wordpress.com/2014/08/collages.jpg")){
 /*Indian*/			picture.src = "http://www.kaveyeats.com/files/2013/03/AsmaCollage.jpg"
@@ -457,7 +463,7 @@ description.innerHTML = "American Soups"}
 							description.innerHTML = "South Indian Cuisine"}
 
 /*South Indian*/		else if (picture.src.match("http://blog-guru.net/wp-content/uploads/2015/11/6-Best-South-Indian-Food.jpg")){
-/* START OVER*/			picture.src = "http://blog-guru.net/wp-content/uploads/2015/11/6-Best-South-Indian-Food.jpg" }
+/* START OVER*/			window.open("a.html", "_self")}
 
 /*Indian*/  else if (picture.src.match("http://www.kaveyeats.com/files/2013/03/AsmaCollage.jpg")){
 /*Greek/Mediterranean*/picture.src = "http://il2.picdn.net/shutterstock/videos/11573237/thumb/1.jpg"
@@ -470,6 +476,9 @@ description.innerHTML = "American Soups"}
 /* Gyros*/ else if (picture.src.match("http://d2lkv2j4m042s95gkf28dijm.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/greek-gyro-review-750x400.png")){
 /*Falafel*/ picture.src = "http://zeuscafe.com/wp-content/uploads/2012/12/FALAFEL-PLATE-988x657.jpg"
 			description.innerHTML = "Falafel"}
+			
+/*Falafel*/else if (picture.src.match("http://d2lkv2j4m042s95gkf28dijm.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/greek-gyro-review-750x400.png")){
+/*START OVER*/		window.open("a.html", "_self")}
 
  /*Greek/Mediterranean*/else if (picture.src.match("http://il2.picdn.net/shutterstock/videos/11573237/thumb/1.jpg")){
 /* Soup */ 	picture.src = "http://www.seriouseats.com/images/2015/12/20151228-vegetarian-soup-recipes-roundup-collage.jpg" 
@@ -629,6 +638,15 @@ h1 {
 	
 	  left: 45%;
      top:  54%;}
+	 
+	 h6 {
+	display: block;
+    margin: 0 auto;
+	position: absolute;
+	
+	  left: 25%;
+     top:  68%;}
+	 
 
 </style>
 <div align = "center">
@@ -636,11 +654,12 @@ h1 {
 	<br></br>
 	<br></br>
 	<img id = "food_pic" 
-	src="http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg" alt="" 
+	src="http://il9.picdn.net/shutterstock/videos/5009498/thumb/1.jpg" alt="" 
 		width = "400" height = "350"/> </div>
 		<br></br>
 		<br></br>
 	<h3 id = "descriptions" > Pasta</h3></div>
+	<h6 id = "citation" > Picture citation: http://il9.picdn.net/shutterstock/videos/5009498/thumb/1.jpg </h6>
 		
 <br></br>
 <br></br>
